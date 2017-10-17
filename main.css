@@ -1,0 +1,44 @@
+@charset "utf-8";
+html {
+    box-sizing: border-box;
+	background-color: silver;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+	/* [disabled]width: 4%; */
+	text-align: center;
+	border: thin none #000000;
+}
+header {
+	font-size: 350%;
+	font: "source-sans-pro";
+	text-align: center;
+	background-color: #C5B358;
+	color: black;
+	border-style: solid;
+}
+img {
+	border-style: solid;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+	font-size: xx-large;
+	background-color: #C5B358;
+}
+a:visited {
+	color: #000000;
+}
+a:hover {
+	color: #4C4C4C;
+	text-decoration: underline;
+}
+#socialmedia a {
+	background-color: silver;
+}
+#memberreport a {
+	background-color: silver;
+}
+#sw {
+	text-align: center;
+}
